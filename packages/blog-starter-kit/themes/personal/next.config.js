@@ -34,7 +34,7 @@ const config = {
       },
       {
         source: "/blog/:path*",
-        destination: "https://ecommerceblog-mhyjpf3pd-yashthipsay.vercel.app/:path*", 
+        destination: "https://ecommerceblog-mhyjpf3pd-yashthipsay.vercel.app/blog/:path*", 
       },
     ];
 	},
