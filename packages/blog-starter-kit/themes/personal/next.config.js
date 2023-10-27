@@ -28,19 +28,15 @@ const config = {
 	},
 	async rewrites() {
 		return [
-			{
-				source: '/ping/data-event',
-				destination: `${ANALYTICS_BASE_URL}/api/data-event`,
-			},
-			{
-				source: '/ping/view',
-				destination: `${ANALYTICS_BASE_URL}/api/view`,
-			},
-			{
-				source: '/api/collect',
-				destination: `${ADVANCED_ANALYTICS_BASE_URL}/api/collect`,
-			},
-		];
+      {
+        source: "/blog",
+        destination: "https://starter-kit-rose-seven.vercel.app/blog", -> Replace https://starter-kit-rose-seven.vercel.app with your own Vercel deployment URL from step 1
+      },
+      {
+        source: "/blog/:path*",
+        destination: "https://starter-kit-rose-seven.vercel.app/blog/:path*", -> Replace https://starter-kit-rose-seven.vercel.app with your own Vercel deployment URL from step 1
+      },
+    ];
 	},
 };
 
