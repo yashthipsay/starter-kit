@@ -30,11 +30,11 @@ const config = {
 		return [
       {
         source: "/blog",
-        destination: "https://starter-kit-rose-seven.vercel.app/blog",
+        destination: "https://ecommerceblog-mhyjpf3pd-yashthipsay.vercel.app/blog",
       },
       {
         source: "/blog/:path*",
-        destination: "https://starter-kit-rose-seven.vercel.app/blog/:path*", 
+        destination: "https://ecommerceblog-mhyjpf3pd-yashthipsay.vercel.app/:path*", 
       },
     ];
 	},
